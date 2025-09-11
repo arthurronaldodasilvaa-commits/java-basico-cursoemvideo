@@ -1,48 +1,38 @@
-# ☕ Java Básico — Curso em Vídeo
+<h1 align="center">☕ Java Básico — Curso em Vídeo</h1>
 
-<div align="center">
-
-## 🚀 Repositório de exercícios do curso do **Gustavo Guanabara**
-
-Feito no **NetBeans** para fixar os fundamentos da linguagem.
-
-<br>
-
-![Java](https://img.shields.io/badge/Java-8%20%7C%2015-ED8B00?logo=java&logoColor=white)
-![IDE](https://img.shields.io/badge/IDE-NetBeans-1B6AC6?logo=apache-netbeans-ide&logoColor=white)
-![Status](https://img.shields.io/badge/status-em%20estudo-yellow)
-
-</div>
+<p align="center">
+  <img alt="Status" src="https://img.shields.io/badge/status-Conclu%C3%ADdo-22c55e?style=flat-square" />
+  <img alt="IDE" src="https://img.shields.io/badge/IDE-NetBeans-1B6AC6?style=flat-square&logo=apache-netbeans-ide&logoColor=white" />
+</p>
 
 ---
 
-## 📦 Conteúdo
-
-- ⚙️ Sintaxe, tipos e operadores
-- 🔄 Controle de fluxo (`if/else`, `switch`, `for/while/do-while`)
-- 📊 Arrays e métodos
-- ⌨️ Entrada com `Scanner` e `printf`
-- 🧩 Noções iniciais de POO
-
----
-
-## ▶️ Como executar
-
-### **NetBeans (recomendado)**
-1. `File → Open Project…` e selecione a pasta do projeto  
-2. **Run** (F6)
-
-### **Terminal (opcional)**
-```bash
-# Requer JDK 8 ou 15
-javac NomeDoArquivo.java
-java NomeDoArquivo
-```
+<table>
+  <tr>
+    <td>
+      <h3>📚 Conteúdo</h3>
+      <ul>
+        <li>Sintaxe, tipos, operadores, controle de fluxo</li>
+        <li>Arrays, funções e E/S</li>
+        <li>Boas práticas iniciais</li>
+      </ul>
+    </td>
+    <td>
+      <h3>🚀 Como executar</h3>
+      <p>Via NetBeans <i>ou</i> CLI:</p>
+      <pre><code>javac src/Main.java
+java -cp src Main</code></pre>
+      <sub>⚠️ Ajuste o caminho do pacote/classe conforme sua estrutura.</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
-<div align="center">
+## 🏁 Highlights
+- Commits descritivos por exercício
+- Organização por pacote/tema
+- Comentários explicando lógica
 
-*Desenvolvido com 💜 para fins educacionais*
-
-</div>
+## 📜 Licença
+MIT
